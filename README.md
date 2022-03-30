@@ -8,3 +8,5 @@ Screenshot - Captures a screenshot of victims full screen and sends the file and
 ShowMessagebox - Shows a messagebox onto the victims computer
 Speak - Uses SpeechSynthesizer to talk on the victims computer with a robotic voice.
 ```
+# IMPORTANT
+This project is no longer publically maintained. This project USED to be private, but why not release this stack overflow skidded mess I made a while ago?
